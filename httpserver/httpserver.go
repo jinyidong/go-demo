@@ -16,6 +16,12 @@ const (
 	POST
 )
 
+func Default() *HttpServer {
+	return &HttpServer{
+		router:NewRouter(),
+	}
+}
+
 func NewRouter() MethodMaps {
 	return []handler{
 		GET:    make(handler),
