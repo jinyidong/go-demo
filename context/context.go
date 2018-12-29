@@ -14,17 +14,18 @@ func SyncWithContext2()  {
 		go watch(ctx,"【监控2】")
 		go watch(ctx,"【监控3】")
 
-		time.Sleep(10 * time.Second)
+		time.Sleep(5 * time.Second)
 		fmt.Println("可以了，通知监控停止")
 		cancel()
 		//为了检测监控过是否停止，如果没有监控输出，就表示停止了
-		time.Sleep(5 * time.Second)
+		time.Sleep(20 * time.Second)
 }
 
 func watch(ctx context.Context, name string) {
 	for {
+		fmt.Println(name,"------------------------>watch:",&ctx)
 		select {
-		case <-ctx.Done():
+		case <-ctx.Done()://channel读事件
 			fmt.Println(name,"监控退出，停止了...")
 			return
 		default:
@@ -50,7 +51,7 @@ func SyncWithContext()  {
 		}
 
 	}(ctx)
-	time.Sleep(10 * time.Second)
+	time.Sleep(5 * time.Second)
 	fmt.Println("可以了，通知监控停止")
 	cancel()
 	//为了检测监控过是否停止，如果没有监控输出，就表示停止了

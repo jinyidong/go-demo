@@ -1,6 +1,8 @@
 package context
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestSyncWithWaitGroup(t *testing.T) {
 	SyncWithWaitGroup()
@@ -17,3 +19,4 @@ func TestSyncWithContext(t *testing.T) {
 func TestSyncWithChannelSelect2(t *testing.T) {
 	SyncWithContext2()
 }
+
