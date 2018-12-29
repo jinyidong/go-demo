@@ -3,7 +3,7 @@ package httpserver
 import "net/http"
 
 //自定义httpserver，其实只需要get、post两种行为基本满足需求
-type MethodMaps [] handler
+type MethodMaps []handler
 type handler map[string]HandlerMapped
 type HandlerMapped struct {
 	f HandlerFunc
@@ -23,7 +23,7 @@ func Default() *HttpServer {
 }
 
 func NewRouter() MethodMaps {
-	return []handler{
+	return []handler{//注意该数组初始化方式，{1:XXX,2:YYY}，指定位置初始化
 		GET:    make(handler),
 		POST:   make(handler),
 	}
