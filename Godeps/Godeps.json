@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/jinyidong/go-demo",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": []
+}

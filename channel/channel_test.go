@@ -1,7 +1,13 @@
 package channel
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
+func TestChannelSelect2(t *testing.T) {
+	fmt.Println(1<<16)//将1的二进制位左移16位，右侧补0
+}
 func TestChannelSelect(t *testing.T) {
 	ChannelSelect()
 }
