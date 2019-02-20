@@ -1,6 +1,7 @@
 package interceptor
 
 type IModel interface {
+	New() IModel
 	Query(id int) int
 }
 
@@ -13,9 +14,10 @@ func (a *Account) Query(id int) int {
 	return a.Id
 }
 
-var New= func(id int,name string) IModel{
-	return &Account{id,name}
+func (a *Account) New() IModel {
+	return &Account{a.Id,a.Name}
 }
+
 
 type Proxy struct {
 	IModel
@@ -24,6 +26,10 @@ type Proxy struct {
 
 func (p *Proxy) Query(id int) int {
 	return p.IModel.Query(id)
+}
+
+func (p *Proxy) New() IModel {
+	return p.IModel.New()
 }
 
 
