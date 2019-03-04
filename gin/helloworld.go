@@ -5,10 +5,15 @@ import (
 	"html/template"
 	"log"
 	"net/http"
+	_ "net/http/pprof"
 	"os"
 )
 
 func App()  {
+	go func() {
+		log.Println(http.ListenAndServe("localhost:8080", nil))
+	}()
+
 	router:=gin.Default()
 	
 	router.GET("/", func(context *gin.Context) {
