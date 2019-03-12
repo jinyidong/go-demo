@@ -4,3 +4,7 @@ package tdd
 var Add= func(i,j int) int {
 	return i+j
 }
+
+func Sub(i,j int) int {
+	return Add(i,j)-1
+}

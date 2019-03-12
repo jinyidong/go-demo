@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="274a57fa-7108-46ff-a1dd-09d936c787f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tdd/tdd.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd/tdd_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/tdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/tdd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/tdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/tdd_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +61,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tdd/tdd_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="296">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="e#13#78#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/convey/math.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -163,7 +171,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestAdd3 in github.com/jinyidong/go-demo/tdd">
+    <configuration name="TestAdd3 in github.com/jinyidong/go-demo/tdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-demo" />
+      <working_directory value="$PROJECT_DIR$/tdd" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jinyidong/go-demo/tdd" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestAdd3$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestPanic in github.com/jinyidong/go-demo/panicrecover" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$/panicrecover" />
@@ -177,6 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestAdd3 in github.com/jinyidong/go-demo/tdd" />
         <item itemvalue="Go Test.TestPanic in github.com/jinyidong/go-demo/panicrecover" />
       </list>
     </recent_temporary>
@@ -191,13 +211,22 @@
     <history-entry file="TestPanic_in_github_com_jinyidong_go-demo_panicrecover - 2019.03.11 at 19h 48m 55s.xml">
       <configuration name="TestPanic in github.com/jinyidong/go-demo/panicrecover" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestAdd3_in_github_com_jinyidong_go-demo_tdd - 2019.03.12 at 13h 26m 43s.xml">
+      <configuration name="TestAdd3 in github.com/jinyidong/go-demo/tdd" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAdd3_in_github_com_jinyidong_go-demo_tdd - 2019.03.12 at 13h 27m 20s.xml">
+      <configuration name="TestAdd3 in github.com/jinyidong/go-demo/tdd" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAdd3_in_github_com_jinyidong_go-demo_tdd - 2019.03.12 at 13h 27m 33s.xml">
+      <configuration name="TestAdd3 in github.com/jinyidong/go-demo/tdd" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -207,7 +236,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.11756374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4532578" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -256,6 +285,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/convey/math.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tdd/tdd.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -265,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tdd/tdd_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="296">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="e#13#78#0" expanded="true" />
           </folding>
